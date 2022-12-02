@@ -83,3 +83,7 @@ input:hover {
     text-align: right;
     border: 2px solid rgb(9, 33, 42);
 }
+p{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.385);
+}
