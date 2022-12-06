@@ -13,7 +13,7 @@
 <body>
     <h1> Calculator</h1>
     <div class="formstyle">
-        <form name="form1">
+        <form name="form1" method="dialog" onsubmit="return equal()">
             <input class="textview" name="textview">
         </form>
         <center>
@@ -40,7 +40,7 @@
                     <td> <input class="btn" type="button" value="1" onclick="insert(1)"> </td>
                     <td> <input class="btn" type="button" value="2" onclick="insert(2)"> </td>
                     <td> <input class="btn" type="button" value="3" onclick="insert(3)"> </td>
-                    <td rowspan=5> <input class="btn" style="height: 110px" type="button" value="=" onclick="equal()">
+                    <td rowspan=5> <input class="btn" style="height: 110px" type="submit" value="=" onclick="equal()">
                     </td>
                 </tr>
                 <tr>
@@ -49,9 +49,10 @@
                     <td> <input class="btn" type="button" value="." onclick="insert('.')"> </td>
                 </tr>
             </table>
-        </center>
-        <p>&copy;Copyright | Mahesh Cheegiti</p>
-    </div>
+            <p>&copy;Copyright | Mahesh Cheegiti</p>
+            </center>
+            
+        </div>
 </body>
 
 </html>
