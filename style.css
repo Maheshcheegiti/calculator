@@ -23,6 +23,7 @@ body {
     font-size: 20px;
     text-shadow: 15px 10px px rgba(0, 0, 0, 0.6);
     background: radial-gradient(rgb(137, 207, 235)20%, rgb(16, 81, 113));
+    height: 100vh;
 }
 
 h1 {
@@ -85,5 +86,5 @@ input:hover {
 }
 p{
     font-size: 15px;
-    color: rgba(0, 0, 0, 0.385);
+    color: rgba(255, 255, 255, 0.385);
 }
